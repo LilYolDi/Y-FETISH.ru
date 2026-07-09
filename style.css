@@ -295,3 +295,87 @@ header,
 .menu a:hover{
     background:#333 !important;
 }
+
+
+
+
+
+/* ---------- Адаптация для телефона ---------- */
+
+@media (max-width:768px){
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:12px 15px;
+    height:70px;
+}
+
+.logo{
+    position:static;
+    transform:none;
+    font-size:34px;
+    letter-spacing:1px;
+    white-space:nowrap;
+}
+
+.header-buttons{
+    display:flex;
+    gap:8px;
+    margin-left:auto;
+}
+
+.header-buttons button{
+    padding:10px 12px;
+    font-size:15px;
+    border-radius:12px;
+}
+
+#addProfileBtn{
+    font-size:22px;
+    height:58px;
+}
+
+.searchBox{
+    margin:15px;
+    padding:15px;
+}
+
+.searchBox select,
+.searchBox input{
+    height:50px;
+    font-size:17px;
+}
+
+.search button{
+    width:60px;
+}
+
+#ads{
+    grid-template-columns:1fr;
+    padding:15px;
+}
+
+.card{
+    flex-direction:column;
+}
+
+.card img{
+    width:100%;
+    height:420px;
+}
+
+.info{
+    padding:15px;
+}
+
+.info h2{
+    font-size:22px;
+}
+
+.info p{
+    font-size:16px;
+}
+
+}
